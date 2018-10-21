@@ -15,7 +15,7 @@ trips(){
 }
 
 passengers(){
-  return store.trips().map(i => i.passenger())
+  return store.trips.map(i => i.passenger())
 }
 
 }
