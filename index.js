@@ -1,4 +1,4 @@
-Js-object-oritented-class-relations-lab -v-000
+
 
 let store = {drivers: [], passengers: [], trips: []}
 let driverId = 0
