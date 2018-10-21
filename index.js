@@ -15,7 +15,7 @@ trips(){
 }
 
 passengers(){
-  return store.trips.map(i => i.passengerId === this.id)
+  return store.trips.map(i => i.tripId === this.id)
 }
 
 }
