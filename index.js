@@ -27,6 +27,10 @@ class Passenger {
     store.passengers.push(this)
   }
 
+  trips(){
+    store.trips.filter(i => i.passengerId === this.id)
+  }
+
 
 }
 
